@@ -1,0 +1,39 @@
+# Sensitive files
+.env
+.env.local
+*.key
+*.pem
+*.env
+
+# Cursor agent execution files (may contain sensitive data)
+.cursor/agents/task-executions.json
+.cursor/agents/shared-context.json
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Package manager locks (optional - you may want to commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "frontend-component",
+    "name": "Create React Component",
+    "description": "Create a new React component with TypeScript",
+    "category": "frontend",
+    "agentType": "frontend",
+    "template": "Create a {ComponentName} component with the following features:\n- {Feature1}\n- {Feature2}\n- Responsive design\n- TypeScript types",
+    "variables": [
+      "ComponentName",
+      "Feature1",
+      "Feature2"
+    ],
+    "usageCount": 1,
+    "createdAt": "2025-11-25T09:54:38.284Z",
+    "updatedAt": "2025-11-25T10:33:12.825Z"
+  },
+  {
+    "id": "frontend-theme",
+    "name": "Implement Dark Theme",
+    "description": "Add dark mode support",
+    "category": "frontend",
+    "agentType": "frontend",
+    "template": "Implement dark theme with:\n- Theme configuration\n- Color palette\n- Dark/light mode toggle\n- Theme persistence",
+    "variables": [],
+    "usageCount": 1,
+    "createdAt": "2025-11-25T09:54:38.284Z",
+    "updatedAt": "2025-11-25T10:11:19.509Z"
+  },
+  {
+    "id": "backend-api",
+    "name": "Create API Endpoint",
+    "description": "Create a REST API endpoint",
+    "category": "backend",
+    "agentType": "backend",
+    "template": "Create API endpoint for {Resource}:\n- Route: {Route}\n- Methods: {Methods}\n- Request validation\n- Error handling",
+    "variables": [
+      "Resource",
+      "Route",
+      "Methods"
+    ],
+    "usageCount": 0,
+    "createdAt": "2025-11-25T09:54:38.284Z",
+    "updatedAt": "2025-11-25T09:54:38.284Z"
+  },
+  {
+    "id": "database-schema",
+    "name": "Design Database Schema",
+    "description": "Create database schema design",
+    "category": "database",
+    "agentType": "database",
+    "template": "Design database schema for {Feature}:\n- Tables: {Tables}\n- Relationships\n- Indexes",
+    "variables": [
+      "Feature",
+      "Tables"
+    ],
+    "usageCount": 0,
+    "createdAt": "2025-11-25T09:54:38.284Z",
+    "updatedAt": "2025-11-25T09:54:38.284Z"
+  }
+]

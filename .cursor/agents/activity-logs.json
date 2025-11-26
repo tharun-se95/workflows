@@ -1,0 +1,443 @@
+[
+  {
+    "id": "activity-1764065479568-frontend-tgbgnd33s",
+    "timestamp": "2025-11-25T10:11:19.568Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Analyze requirements",
+    "details": "Status changed: completed → active",
+    "metadata": null
+  },
+  {
+    "id": "activity-1764067349769-devops-210ilkpw7",
+    "timestamp": "2025-11-25T10:42:29.769Z",
+    "agentId": "devops",
+    "agentName": "DevOps Engineer",
+    "action": "updated",
+    "task": "Server kill: API Server",
+    "details": "Server API Server status changed: running → stopped",
+    "metadata": {
+      "serverId": "api-server",
+      "action": "kill",
+      "oldStatus": "running",
+      "newStatus": "stopped"
+    }
+  },
+  {
+    "id": "activity-1764067406668-devops-v1xyipd87",
+    "timestamp": "2025-11-25T10:43:26.668Z",
+    "agentId": "devops",
+    "agentName": "DevOps Engineer",
+    "action": "updated",
+    "task": "Database kill: PostgreSQL Main",
+    "details": "Database PostgreSQL Main status changed: running → stopped",
+    "metadata": {
+      "databaseId": "postgres-main",
+      "action": "kill",
+      "oldStatus": "running",
+      "newStatus": "stopped"
+    }
+  },
+  {
+    "id": "activity-1764067410754-devops-40vew5ono",
+    "timestamp": "2025-11-25T10:43:30.754Z",
+    "agentId": "devops",
+    "agentName": "DevOps Engineer",
+    "action": "updated",
+    "task": "Database kill: Vector Database",
+    "details": "Database Vector Database status changed: running → stopped",
+    "metadata": {
+      "databaseId": "vector-db",
+      "action": "kill",
+      "oldStatus": "running",
+      "newStatus": "stopped"
+    }
+  },
+  {
+    "id": "activity-1764067414745-devops-xo8amnear",
+    "timestamp": "2025-11-25T10:43:34.746Z",
+    "agentId": "devops",
+    "agentName": "DevOps Engineer",
+    "action": "updated",
+    "task": "Database kill: Redis Cache",
+    "details": "Database Redis Cache status changed: running → stopped",
+    "metadata": {
+      "databaseId": "redis-cache",
+      "action": "kill",
+      "oldStatus": "running",
+      "newStatus": "stopped"
+    }
+  },
+  {
+    "id": "activity-1764067418954-devops-wqbgpz5k3",
+    "timestamp": "2025-11-25T10:43:38.954Z",
+    "agentId": "devops",
+    "agentName": "DevOps Engineer",
+    "action": "updated",
+    "task": "Server start: API Server",
+    "details": "Server API Server status changed: stopped → starting",
+    "metadata": {
+      "serverId": "api-server",
+      "action": "start",
+      "oldStatus": "stopped",
+      "newStatus": "starting"
+    }
+  },
+  {
+    "id": "activity-1764068098193-frontend-133y3ixjq",
+    "timestamp": "2025-11-25T10:54:58.193Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Analyze requirements",
+    "details": "Task started: Analyze requirements",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-0"
+    }
+  },
+  {
+    "id": "activity-1764068099900-frontend-smuwrsop8",
+    "timestamp": "2025-11-25T10:54:59.900Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Analyze requirements",
+    "details": "Task completed: Analyze requirements",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-0"
+    }
+  },
+  {
+    "id": "activity-1764068099916-frontend-y3nhkctma",
+    "timestamp": "2025-11-25T10:54:59.916Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Plan implementation",
+    "details": "Task started: Plan implementation",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-1"
+    }
+  },
+  {
+    "id": "activity-1764068101800-frontend-x80xt2zss",
+    "timestamp": "2025-11-25T10:55:01.800Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Plan implementation",
+    "details": "Task completed: Plan implementation",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-1"
+    }
+  },
+  {
+    "id": "activity-1764068101808-frontend-h5kpvs3xc",
+    "timestamp": "2025-11-25T10:55:01.808Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Implement solution",
+    "details": "Task started: Implement solution",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-2"
+    }
+  },
+  {
+    "id": "activity-1764068103802-frontend-0z9c637g3",
+    "timestamp": "2025-11-25T10:55:03.802Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Implement solution",
+    "details": "Task completed: Implement solution",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-2"
+    }
+  },
+  {
+    "id": "activity-1764068103807-frontend-fet6c64o0",
+    "timestamp": "2025-11-25T10:55:03.807Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Add error handling",
+    "details": "Task started: Add error handling",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-3"
+    }
+  },
+  {
+    "id": "activity-1764068105660-frontend-cjlm75pf4",
+    "timestamp": "2025-11-25T10:55:05.660Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Add error handling",
+    "details": "Task completed: Add error handling",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-3"
+    }
+  },
+  {
+    "id": "activity-1764068105668-frontend-p7l7a5fr0",
+    "timestamp": "2025-11-25T10:55:05.668Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Test implementation",
+    "details": "Task started: Test implementation",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-4"
+    }
+  },
+  {
+    "id": "activity-1764068107216-frontend-kk51kpf3c",
+    "timestamp": "2025-11-25T10:55:07.216Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Test implementation",
+    "details": "Task completed: Test implementation",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-4"
+    }
+  },
+  {
+    "id": "activity-1764068107229-frontend-flpgxh7oe",
+    "timestamp": "2025-11-25T10:55:07.229Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Document changes",
+    "details": "Task started: Document changes",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-5"
+    }
+  },
+  {
+    "id": "activity-1764068109004-frontend-e0haiqgbi",
+    "timestamp": "2025-11-25T10:55:09.004Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Document changes",
+    "details": "Task completed: Document changes",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599",
+      "taskId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599-task-5"
+    }
+  },
+  {
+    "id": "activity-1764068109030-frontend-cue0a7q8g",
+    "timestamp": "2025-11-25T10:55:09.030Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Test task creation",
+    "details": "Completed execution with 6 tasks",
+    "metadata": {
+      "executionId": "20d6a852-1a76-4e66-aaa3-a9f3bed13599"
+    }
+  },
+  {
+    "id": "activity-1764068150384-frontend-nskv8xwb1",
+    "timestamp": "2025-11-25T10:55:50.384Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Design component structure",
+    "details": "Status changed: completed → active",
+    "metadata": null
+  },
+  {
+    "id": "activity-1764068150404-frontend-axb996xmr",
+    "timestamp": "2025-11-25T10:55:50.404Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Design component structure",
+    "details": "Task started: Design component structure",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-0"
+    }
+  },
+  {
+    "id": "activity-1764068152067-frontend-pum0n5bs8",
+    "timestamp": "2025-11-25T10:55:52.067Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Design component structure",
+    "details": "Task completed: Design component structure",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-0"
+    }
+  },
+  {
+    "id": "activity-1764068152074-frontend-os4fhxydw",
+    "timestamp": "2025-11-25T10:55:52.074Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Create component file",
+    "details": "Task started: Create component file",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-1"
+    }
+  },
+  {
+    "id": "activity-1764068153902-frontend-0dnc1x3b1",
+    "timestamp": "2025-11-25T10:55:53.902Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Create component file",
+    "details": "Task completed: Create component file",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-1"
+    }
+  },
+  {
+    "id": "activity-1764068153916-frontend-72thqeb9s",
+    "timestamp": "2025-11-25T10:55:53.916Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Implement component logic",
+    "details": "Task started: Implement component logic",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-2"
+    }
+  },
+  {
+    "id": "activity-1764068155766-frontend-as3xlfyvu",
+    "timestamp": "2025-11-25T10:55:55.766Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Implement component logic",
+    "details": "Task completed: Implement component logic",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-2"
+    }
+  },
+  {
+    "id": "activity-1764068155782-frontend-28j60933y",
+    "timestamp": "2025-11-25T10:55:55.782Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Add styling",
+    "details": "Task started: Add styling",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-3"
+    }
+  },
+  {
+    "id": "activity-1764068157502-frontend-ae9zmqusq",
+    "timestamp": "2025-11-25T10:55:57.502Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Add styling",
+    "details": "Task completed: Add styling",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-3"
+    }
+  },
+  {
+    "id": "activity-1764068157508-frontend-xbisrp8p0",
+    "timestamp": "2025-11-25T10:55:57.508Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Add responsive design",
+    "details": "Task started: Add responsive design",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-4"
+    }
+  },
+  {
+    "id": "activity-1764068159026-frontend-d7rglgp0c",
+    "timestamp": "2025-11-25T10:55:59.026Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Add responsive design",
+    "details": "Task completed: Add responsive design",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-4"
+    }
+  },
+  {
+    "id": "activity-1764068159032-frontend-zj2ob624t",
+    "timestamp": "2025-11-25T10:55:59.032Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "started",
+    "task": "Test component",
+    "details": "Task started: Test component",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-5"
+    }
+  },
+  {
+    "id": "activity-1764068161010-frontend-e6h2jyoj1",
+    "timestamp": "2025-11-25T10:56:01.010Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Test component",
+    "details": "Task completed: Test component",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0",
+      "taskId": "76a700a9-57d1-4d75-ac9a-020052ba51d0-task-5"
+    }
+  },
+  {
+    "id": "activity-1764068161020-frontend-alhjsidth",
+    "timestamp": "2025-11-25T10:56:01.020Z",
+    "agentId": "frontend",
+    "agentName": "Frontend Engineer",
+    "action": "completed",
+    "task": "Create a test component",
+    "details": "Completed execution with 6 tasks",
+    "metadata": {
+      "executionId": "76a700a9-57d1-4d75-ac9a-020052ba51d0"
+    }
+  },
+  {
+    "id": "activity-1764073349947-system-51vwl95q9",
+    "timestamp": "2025-11-25T12:22:29.947Z",
+    "agentId": "system",
+    "agentName": "system",
+    "action": "cleared",
+    "task": "All task executions cleared",
+    "details": "All task executions have been cleared",
+    "metadata": {}
+  }
+]
